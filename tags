@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAttachmentImageToMovies	db/migrate/20151130100726_add_attachment_image_to_movies.rb	/^class AddAttachmentImageToMovies < ActiveRecord::Migration$/;"	c
+AddUserIdToMovies	db/migrate/20151130081910_add_user_id_to_movies.rb	/^class AddUserIdToMovies < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MovieReview
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateMovies	db/migrate/20151130074358_create_movies.rb	/^class CreateMovies < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20151130080310_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+Movie	app/models/movie.rb	/^class Movie < ActiveRecord::Base$/;"	c
+MovieReview	config/application.rb	/^module MovieReview$/;"	m
+MovieTest	test/models/movie_test.rb	/^class MovieTest < ActiveSupport::TestCase$/;"	c
+MoviesController	app/controllers/movies_controller.rb	/^class MoviesController < ApplicationController$/;"	c
+MoviesControllerTest	test/controllers/movies_controller_test.rb	/^class MoviesControllerTest < ActionController::TestCase$/;"	c
+MoviesHelper	app/helpers/movies_helper.rb	/^module MoviesHelper$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+change	db/migrate/20151130074358_create_movies.rb	/^  def change$/;"	f	class:CreateMovies
+change	db/migrate/20151130080310_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20151130081910_add_user_id_to_movies.rb	/^  def change$/;"	f	class:AddUserIdToMovies
+create	app/controllers/movies_controller.rb	/^  def create$/;"	f	class:MoviesController
+destroy	app/controllers/movies_controller.rb	/^  def destroy$/;"	f	class:MoviesController
+down	db/migrate/20151130100726_add_attachment_image_to_movies.rb	/^  def self.down$/;"	F	class:AddAttachmentImageToMovies
+edit	app/controllers/movies_controller.rb	/^  def edit$/;"	f	class:MoviesController
+index	app/controllers/movies_controller.rb	/^  def index$/;"	f	class:MoviesController
+movie_params	app/controllers/movies_controller.rb	/^    def movie_params$/;"	f	class:MoviesController
+new	app/controllers/movies_controller.rb	/^  def new$/;"	f	class:MoviesController
+set_movie	app/controllers/movies_controller.rb	/^    def set_movie$/;"	f	class:MoviesController
+show	app/controllers/movies_controller.rb	/^  def show$/;"	f	class:MoviesController
+up	db/migrate/20151130100726_add_attachment_image_to_movies.rb	/^  def self.up$/;"	F	class:AddAttachmentImageToMovies
+update	app/controllers/movies_controller.rb	/^  def update$/;"	f	class:MoviesController

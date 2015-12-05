@@ -3,6 +3,8 @@
 		<div class="row">
 			<div class="col-md-4">
 				<%= image_tag @movie.image.url(:medium) %>
+				<div class="star-rating" data-score=<%= @avg_ratings %>></div>
+				<em><%= "#{@reviews.length} ratings" %></em>
 				<div class="table-responsive">
 					<table class="table">
 						<tbody>
@@ -32,20 +34,20 @@
 				</div>
 			</div>
 			<div class="col-md-7 col-md-offset-1">
-					<h1 class="review_title"><%= @movie.title %></h1>
-					<p><%= @movie.description %></p>
+				<h1 class="review_title"><%= @movie.title %></h1>
+				<p><%= @movie.description %></p>
 
-					<% if @reviews.blank? %>
-						<h3>Be the first one to Review the Movie!</h3>
-						<%= link_to "Write Review", new_movie_review_path(@movie), class: "btn btn-danger" %>
-					<% else %>
-						<% @reviews.each do |review| %>
-							<div class="reviews">
-								<div class="star-rating" data-score=<%= review.rating %>></div>
-								<p><%= review.comment %></p>
-							</div>
-						<% end %>
+				<% if @reviews.blank? %>
+					<h3>Be the first one to Review the Movie!</h3>
+					<%= link_to "Write Review", new_movie_review_path(@movie), class: "btn btn-danger" %>
+				<% else %>
+					<% @reviews.each do |review| %>
+						<div class="reviews">
+							<div class="star-rating" data-score=<%= review.rating %>></div>
+							<p><%= review.comment %></p>
+						</div>
 					<% end %>
+				<% end %>
 			</div>
 		</div>
 	</div>

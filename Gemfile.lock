@@ -192,11 +192,7 @@ DEPENDENCIES
   devise (~> 3.5, >= 3.5.2)
   jbuilder (~> 2.0)
   jquery-rails
-<<<<<<< HEAD
   mysql2 (~> 0.3.18)
-=======
-  mysql2 (~> 0.4.2)
->>>>>>> 59897a8a33a816af987d9a30640c417ef69eb699
   paperclip (~> 4.3, >= 4.3.2)
   rails (= 4.2.1)
   sass-rails (~> 5.0)

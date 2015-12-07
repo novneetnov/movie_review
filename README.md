@@ -1,4 +1,6 @@
-# MOVIE REVIEW
+# MOVIE REVIEW  
+
+Heroku Link: [https://rateyourmovie.herokuapp.com](https://rateyourmovie.herokuapp.com)
 
 ### This is the week-5 learning tutorial from  
 1. [Mackenzie's 12-in-12 challenge](https://mackenziechild.me/12-in-12/)  
@@ -6,8 +8,6 @@
 3. [Github Repo](https://github.com/mackenziechild/movie_review)  
 
 This week I built a Movie Review app  where signed in users can post ratings and reviews for the movies. Visitors can search their movies. Even partial matches work. A Movie also shows total number of reviews it has got and also the average user rating.
-
-I will be deploying this to heroku soon.
 
 Additional libraries &  gems and resources used:  
 1. [Devise: For authentication](https://github.com/plataformatec/devise)  
